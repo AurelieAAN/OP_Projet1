@@ -5,7 +5,7 @@
 3) launch main.py : python main.py
 
 
-For help : 
+- Help : 
 
 python main.py --help
 
