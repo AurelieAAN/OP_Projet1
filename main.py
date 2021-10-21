@@ -38,7 +38,7 @@ if __name__ == "__main__":
     import argparse
  
     # création du parse des arguments
-    parser = argparse.ArgumentParser(description="To get language Text sent. Use function get_detection_language in file Request_language.py")
+    parser = argparse.ArgumentParser(description="To get language Text sent. This programm use function get_detection_language in file Request_language.py")
  
     # déclaration et configuration des arguments
     parser.add_argument('-v', '--version', action='store_true', default=False, help="Version of software")
@@ -52,4 +52,3 @@ if __name__ == "__main__":
         sys.exit()
  
     main()
-    
