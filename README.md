@@ -6,7 +6,7 @@
 
 or 
 
-1) Launch Script.bat
+1) Launch Script.bat (this script launches environment and main.py)
 
 
 - Help : 
