@@ -4,6 +4,10 @@
 2) activate environment : source activate
 3) launch main.py : python main.py
 
+or 
+
+1) Launch Script.bat
+
 
 - Help : 
 
