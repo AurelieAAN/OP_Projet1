@@ -44,12 +44,11 @@ def main( choice, entry_user):
 if __name__ == "__main__":
 
     import argparse
-    
     # création du parse des arguments
-    parser = argparse.ArgumentParser(description="To get language Text sent. This programm use function get_detection_language in file Request_language.py")
+    parser = argparse.ArgumentParser(prog="DETECT_LANG",description="To get language Text/Array sent")
  
     # déclaration et configuration des arguments
-    parser.add_argument('-v', '--version', action='store_true', default=False, help="Version of software")
+    #parser.add_argument('-v', '--version', action='store_true', default=False, help="Version of software")
     parser.add_argument('-c', '--choice', required=True, help="choice=1 : send array of texts / choice=2 : send text -- (limit 1000 characters by text)")
     parser.add_argument('-e','--entry', required=True, help="Text/Array of texts to detect - limit by text is 1000 characters")
 
@@ -57,9 +56,9 @@ if __name__ == "__main__":
     dargs = vars(parser.parse_args())
  
     # test print(dargs) # affichage du dictionnaire pour mise au point
-    if dargs['version']:
-        version()
-        sys.exit()
+    #if dargs['version']:
+    #    version()
+    #    sys.exit()
     args = parser.parse_args()
     main(args.choice, args.entry)
 
