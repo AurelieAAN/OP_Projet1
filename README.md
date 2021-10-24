@@ -6,8 +6,13 @@
 
 or 
 
+<<<<<<< HEAD
 1) launch Script.bat
 2) launch main.py : python main.py
+=======
+1) Launch Script.bat (this script launches environment and main.py)
+
+>>>>>>> fae7a52966736d55407356277dd3812cf86a71bb
 
 - Help : 
 
