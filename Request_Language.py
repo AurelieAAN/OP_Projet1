@@ -73,7 +73,7 @@ def get_detection_language(key_credential, endpoint_cg, choice, entry_user):
         documents = entry_user
 
     try:
-    # request to pass user's entry
+    # request to pass user's entry t
         response = text_analytics_client.detect_language(documents)
         result = [doc for doc in response if not doc.is_error]
         return result
