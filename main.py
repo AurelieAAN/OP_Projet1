@@ -56,9 +56,10 @@ if __name__ == "__main__":
     # dictionnaire des arguments
     dargs = vars(parser.parse_args())
  
-    # print(dargs) # affichage du dictionnaire pour mise au point
+    # test print(dargs) # affichage du dictionnaire pour mise au point
     if dargs['version']:
         version()
         sys.exit()
     args = parser.parse_args()
     main(args.choice, args.entry)
+
