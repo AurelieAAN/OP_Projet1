@@ -1,3 +1,2 @@
 @echo off
-set currentpath=%~dp0
-cmd /k "cd /d currentpath & cd /d env\Scripts & activate & cd /d %cd%"
+cmd /k "cd /d %~dp0 & cd /d env\Scripts & activate & cd /d %cd%"
