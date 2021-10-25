@@ -1,9 +1,9 @@
 
 import os
-from request_language import get_detection_language, get_authentication
+from request_language.request_language import get_detection_language, get_authentication
 from dotenv import load_dotenv
 import sys
-
+import argparse
 
 
 # chargement des variables d'environnment
@@ -43,7 +43,7 @@ def main( choice, entry_user):
 #############################################################################
 if __name__ == "__main__":
 
-    import argparse
+    
     # création du parse des arguments
     parser = argparse.ArgumentParser(prog="DETECT_LANG",description="To get language Text/Array sent")
  
