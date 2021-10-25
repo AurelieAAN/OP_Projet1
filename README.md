@@ -1,5 +1,9 @@
 # Openclassroom : Projet 1
 
+Install environment : pip install -r requirements.txt
+
+Then, 
+
 1) modify variables in .env
 2) launch git bash and activate environment : source activate
 3) launch main.py : python main.py --help (function is DETECT_LANG)
