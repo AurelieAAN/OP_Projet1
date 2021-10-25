@@ -1,6 +1,6 @@
 
 import os
-from Request_Language import get_detection_language, get_authentication
+from request_language import get_detection_language, get_authentication
 from dotenv import load_dotenv
 import sys
 
