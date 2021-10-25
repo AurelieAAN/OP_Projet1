@@ -27,7 +27,7 @@ def get_authentication(tenant_id, client_id, client_secret, endpoint_kv, secret_
         ## connect to service text analyze
         key_credential = AzureKeyCredential(secret.value)
         return key_credential
-    except TypeError as e:
+    except Exception as e:
         print("error authentication ",e)
 
 def get_detection_language(key_credential, endpoint_cg, choice, entry_user):
