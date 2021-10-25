@@ -6,7 +6,7 @@ Then,
 
 1) modify variables in .env
 2) launch git bash and activate environment : source activate
-3) launch main.py : python analysis_text.py --help (function is DETECT_LANG)
+3) launch analysis_text.py : python analysis_text.py --help (function is DETECT_LANG)
 
 or 
 
@@ -15,6 +15,6 @@ or
 
 - Help : 
 
-python main.py --help
+python analysis_text.py --help
 
-python Request_language.py --help
+python request_language.py --help
