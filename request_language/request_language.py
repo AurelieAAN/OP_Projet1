@@ -65,12 +65,7 @@ def get_detection_language(key_credential, endpoint_cg, choice, entry_user):
     # here we use appregistration to authenticate keyvault
     text_analytics_client = TextAnalyticsClient(endpoint_cg, key_credential)
     documents = []
-
-    if choice=="2":
-        documents.append(entry_user)
-
-    if choice=="1":
-        documents = entry_user
+    documents = entry_user
 
     try:
     # request to pass user's entry t
@@ -80,7 +75,6 @@ def get_detection_language(key_credential, endpoint_cg, choice, entry_user):
     except TypeError as e:
         return print("error cognitif ",e)
         
-    
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
